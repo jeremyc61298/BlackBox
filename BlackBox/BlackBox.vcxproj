@@ -23,7 +23,7 @@
     <ProjectGuid>{9CA13EE7-FD62-4944-B06D-3D80A9A5D779}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>BlackBox</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="blackbox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="blackbox.ans" />
+    <None Include="blackbox.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
