@@ -26,5 +26,8 @@
     <None Include="blackbox.in">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="blackbox.out">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
